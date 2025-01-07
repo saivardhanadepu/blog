@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.img {
+  height: 70vh;
+}
+.container {
+  padding: 20px;
+}
+
+.categories {
+  display: flex;
+  align-items: end;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.categories h3 {
+  margin-right: 20px;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.cards {
+  margin-left: 350px;
+  display: flex;
+  gap: 20px;
+}
+.car {
+  gap: 20px;
+  padding-top: 20px;
+  margin: 20px;
+}
+.cars {
+  padding-top: 20px;
+  gap: 20px;
+  margin: 20px;
+}
+.carss {
+  padding-top: 20px;
+  gap: 20px;
+  margin: 20px;
+}
+.foot-panel1 {
+  text-align: center;
+}
+.foot-panel2 {
+  display: flex;
+  gap: 80px;
+  text-align: center;
+  justify-content: center;
+}
+
+.foot-panel2 span {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul p {
+  display: inline;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+ul a {
+  display: inline;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+.foot-panel3 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.foot-panel4 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.foot-panel4 .pages a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.foot-panel4 .pages a:hover {
+  text-decoration: underline;
+}
